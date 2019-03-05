@@ -1,9 +1,8 @@
+var min_xp_gain_per_message = 5;
+var max_xp_gain_per_message = 25;
+
 function calculate()
 {
-    //Constants
-    var min_xp_gain_per_message = 15;
-    var max_xp_gain_per_message = 25;
-
     //Input from user
     var desired_level = document.getElementById("desired-level").value;
     var current_xp = document.getElementById("current-xp").value;
